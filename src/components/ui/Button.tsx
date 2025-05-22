@@ -11,9 +11,10 @@ export const Button = ({
   const variantStyle = {
     primary: "bg-blue-600 hover:bg-blue-700",
     secondary: "bg-gray-600 hover:bg-gray-700",
-    "call-to-action": "bg-orange-600 hover:bg-orange-700 text-white",
+    "call-to-action":
+      "bg-orange-600 hover:bg-orange-700 text-white font-semibold",
     outlined:
-      "border border-gray-200 text-gray-600 rounded-lg hover:bg-amber-100 transition duration",
+      "border border-gray-200 text-amber-700 hover:text-amber-800 rounded-lg hover:bg-amber-100 font-semibold transition duration-400",
     basic: "text-gray-500 hover:text-gray-800 font-semibold",
   }[variant];
 
