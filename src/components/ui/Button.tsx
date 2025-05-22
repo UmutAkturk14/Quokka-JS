@@ -7,11 +7,14 @@ export const Button = ({
   children,
   ...props
 }: ButtonProps) => {
-  const baseStyle = "px-4 py-2 rounded text-white font-semibold";
+  const baseStyle = "px-4 py-2 rounded hover:cursor-pointer";
   const variantStyle = {
     primary: "bg-blue-600 hover:bg-blue-700",
     secondary: "bg-gray-600 hover:bg-gray-700",
-    "call-to-action": "bg-green-600 hover:bg-green-700",
+    "call-to-action": "bg-orange-600 hover:bg-orange-700 text-white",
+    outlined:
+      "border border-gray-200 text-gray-600 rounded-lg hover:bg-amber-100 transition duration",
+    basic: "text-gray-500 hover:text-gray-800 font-semibold",
   }[variant];
 
   const className = `${baseStyle} ${variantStyle}`;
