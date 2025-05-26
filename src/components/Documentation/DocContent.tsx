@@ -67,10 +67,10 @@ const store = createStore(
       <div className="mt-10 text-center flex justify-center items-center ">
         <a
           href="#"
-          className="doc-link border-2 border-stone-100 font-semibold text-amber-700 hover:bg-amber-50 transition-colors px-4 py-2 rounded"
+          className="doc-link border-2 border-stone-100 font-semibold flex justify-center items-center text-amber-700 hover:bg-amber-50 transition-colors px-4 py-2 rounded"
         >
           <span className="inline-block mr-2">📖</span>
-          <span className="inline-flex items-center">
+          <span className="inline-flex items-center text-sm md:text-base">
             View Complete Documentation
             <ChevronRight className="h-5 w-5 ml-2" />
           </span>

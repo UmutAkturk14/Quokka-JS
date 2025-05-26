@@ -4,8 +4,8 @@ const Footer = () => {
   return (
     <footer className="bg-earth-50 border-t border-stone-300 py-12 flex justify-center items-center">
       <div className="container px-4 md:px-6">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="space-y-4">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
+          <div className="space-y-4 col-span-2">
             <h3 className="text-lg font-semibold">Your Library</h3>
             <p className="text-stone-600">
               A modern TypeScript library that enhances your development
@@ -36,7 +36,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div>
+          <div className="">
             <h3 className="text-lg font-semibold mb-4">Links</h3>
             <ul className="space-y-2">
               <li>

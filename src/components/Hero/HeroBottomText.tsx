@@ -22,8 +22,10 @@ const HeroBottomText: React.FC<Pick<HeroBottomTextProps, "className">> = ({
   const { title, description } = textContent;
   return (
     <div className={clsx("flex flex-col items-center gap-4", className)}>
-      <h2 className="text-3xl font-bold text-gray-800 mb-2">{title}</h2>
-      <p className="text-lg text-gray-600 text-center max-w-2xl">
+      <h2 className="text-xl md:text-3xl font-bold text-gray-800 mb-2">
+        {title}
+      </h2>
+      <p className=" md:text-lg text-gray-600 text-center max-w-2xl">
         {description}
       </p>
     </div>

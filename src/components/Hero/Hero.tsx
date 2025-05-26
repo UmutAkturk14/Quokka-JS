@@ -17,7 +17,7 @@ const Hero: React.FC<HeroProps> = () => {
           <HeroSubtext />
         </div>
       </div>
-      <HeroBottomText className="-mt-[12svh]" />
+      <HeroBottomText className="-mt-[15svh] md:-mt-[12svh]" />
     </>
   );
 };
