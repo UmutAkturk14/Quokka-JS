@@ -5,3 +5,7 @@
 .quokka-font {
   font-family: 'Alcizar', sans-serif;
 }
+
+.hljs {
+  background: inherit !important;
+}

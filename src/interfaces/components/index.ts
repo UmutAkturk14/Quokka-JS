@@ -1,3 +1,4 @@
+export * from "./CodeExample";
 export * from "./Features";
 export * from "./Hero";
 export * from "./Navbar";
