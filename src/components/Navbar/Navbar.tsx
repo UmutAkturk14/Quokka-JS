@@ -31,7 +31,7 @@ const Navbar: React.FC<NavbarProps> = () => {
           </Button>
         </div>
         <div id="navbar-cta-buttons" className="flex gap-6">
-          <Button variant="outlined" onClick={() => alert("Clicked!")}>
+          <Button variant="outlined" copyText="npm install quokka-js">
             npm install quokka-js
           </Button>
           <Button variant="call-to-action" onClick={() => alert("Clicked!")}>
