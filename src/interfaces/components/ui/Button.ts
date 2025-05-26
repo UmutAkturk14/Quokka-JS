@@ -4,4 +4,5 @@ export interface ButtonProps {
   variant?: 'primary' | 'secondary' | 'call-to-action' | 'outlined' | 'basic';
   children?: React.ReactNode;
   className?: string;
+  copyText?: string;
 }
