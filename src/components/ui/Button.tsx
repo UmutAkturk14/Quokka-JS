@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { CopyIcon } from "@radix-ui/react-icons";
 import type { ButtonProps } from "@interfaces";
+import { Copy } from "lucide-react";
 
 export const Button = ({
   variant,
@@ -12,14 +12,14 @@ export const Button = ({
 }: ButtonProps & { copyText?: string }) => {
   const [isCopied, setIsCopied] = useState(false);
   const baseStyle =
-    "px-4 py-2 rounded hover:cursor-pointer flex items-center gap-2 transition-all";
+    "px-4 py-2 rounded hover:cursor-pointer flex items-center gap-2 transition-all h-11";
   const variantMap = {
     primary: "bg-blue-600 hover:bg-blue-700 text-white",
     secondary: "bg-gray-600 hover:bg-gray-700 text-white",
     "call-to-action":
       "bg-orange-600 hover:bg-orange-700 text-white font-semibold",
     outlined:
-      "border border-gray-200 text-amber-700 hover:text-amber-800 rounded-lg hover:bg-amber-50 font-semibold transition duration-400",
+      "border border-gray-200 text-amber-700 hover:text-amber-800 rounded-lg hover:bg-amber-50 font-semibold transition duration-400 max-h-11",
     basic: "text-gray-500 hover:text-gray-800 font-semibold",
   } as const;
 
@@ -64,8 +64,8 @@ export const Button = ({
       >
         {children ?? "Click Me"}
         {copyText && (
-          <span className="ml-3 p-2 rounded-md hover:bg-amber-500/50 transition-colors">
-            <CopyIcon className="w-5 h-5 text-amber-600 group-hover:text-amber-700" />
+          <span className="ml-3 p-1.5 rounded-md hover:bg-amber-500/50 transition-colors">
+            <Copy className="w-5 h-5 text-amber-600 group-hover:text-amber-700" />
           </span>
         )}
       </button>
