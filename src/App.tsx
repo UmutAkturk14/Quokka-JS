@@ -4,6 +4,7 @@ import Hero from "@components/Hero/Hero";
 import Features from "@components/Features/Features";
 import CodeExample from "@components/CodeExample/CodeExample";
 import { Documentation } from "@components/Documentation/Documentation";
+import Footer from "@components/Footer/Footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Features />
       <CodeExample />
       <Documentation />
+      <Footer />
     </>
   );
 }
