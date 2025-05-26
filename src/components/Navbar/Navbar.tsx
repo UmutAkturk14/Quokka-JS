@@ -5,10 +5,10 @@ import Quokka from "@assets/Quokka";
 
 const Navbar: React.FC<NavbarProps> = () => {
   return (
-    <div className="w-full fixed top-0 bg-gray-50/30 backdrop-blur-sm border-b border-gray-200">
+    <div className="w-full fixed top-0 bg-gray-50/30 backdrop-blur-sm border-b border-gray-200 z-50 backdrop">
       <div className="w-3/4 h-20 m-auto flex justify-between items-center">
         <div className="flex gap-2 justify-center items-center">
-          <Quokka className="w-14 h-14" />
+          <Quokka className="w-9 h-9 select-none" />
           <p
             className="text-3xl font-bold"
             style={{ fontFamily: "Ancizar Serif" }}
@@ -30,7 +30,10 @@ const Navbar: React.FC<NavbarProps> = () => {
             GitHub
           </Button>
         </div>
-        <div id="navbar-cta-buttons" className="flex gap-6">
+        <div
+          id="navbar-cta-buttons"
+          className="flex gap-4 justify-center items-center"
+        >
           <Button variant="outlined" copyText="npm install quokka-js">
             npm install quokka-js
           </Button>

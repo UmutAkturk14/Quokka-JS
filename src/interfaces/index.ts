@@ -1,2 +1,2 @@
 export * from "./components";
-export * from "./components/Hero/HeroBottomText";
+export * from "./components/Features/Features";

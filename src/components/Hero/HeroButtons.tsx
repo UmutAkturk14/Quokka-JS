@@ -14,7 +14,7 @@ const HeroButtons: React.FC<HeroButtonsProps> = ({ className }) => {
       </Button>
 
       <Button
-        className="rounded-sm text-gray-800 border-gray-300 border-1 font-semibold px-4 py-2 hover:bg-amber-100 transition-colors duration-300 hover:text-amber-800 cursor-pointer"
+        className="rounded-sm text-gray-800 h-11 border-gray-300 border-1 font-semibold px-4 py-2 hover:bg-amber-100 transition-colors duration-300 hover:text-amber-800 cursor-pointer"
         onClick={() => alert("Clicked!")}
       >
         Documentation
