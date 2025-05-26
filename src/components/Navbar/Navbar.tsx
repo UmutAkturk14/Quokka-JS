@@ -5,7 +5,7 @@ import Quokka from "@assets/Quokka";
 
 const Navbar: React.FC<NavbarProps> = () => {
   return (
-    <div className="w-full bg-yellow-50/30 backdrop-blur-sm border-b border-gray-100">
+    <div className="w-full fixed top-0 bg-gray-50/30 backdrop-blur-sm border-b border-gray-200">
       <div className="w-3/4 h-20 m-auto flex justify-between items-center">
         <div className="flex gap-2 justify-center items-center">
           <Quokka className="w-14 h-14" />
