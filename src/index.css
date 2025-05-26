@@ -1,3 +1,7 @@
 @import "tailwindcss";
 
 @custom-variant dark (&:where(.dark, .dark *));
+
+.quokka-font {
+  font-family: 'Alcizar', sans-serif;
+}
