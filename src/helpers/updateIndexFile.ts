@@ -4,8 +4,6 @@ import path from "path";
 function updateIndexFile(dir: string): boolean {
   const files = fs.readdirSync(dir, { withFileTypes: true });
 
-  const hasExports = false;
-
   const exportsFiles = files
     .filter(
       (f) => f.isFile() && f.name.endsWith(".ts") && f.name !== "index.ts",

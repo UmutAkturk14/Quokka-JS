@@ -1,4 +1,3 @@
-import React from "react";
 import type { Feature } from "@interfaces";
 import { ArrowRight, Box, Code, Lightbulb, Zap } from "lucide-react";
 

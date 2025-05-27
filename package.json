@@ -1,13 +1,15 @@
 {
-  "name": "ts-react-tailwind-sp-template",
+  "name": "quokka-js",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.2.0",
   "type": "module",
+  "homepage": "https://umutakturk14.github.io/Quokka-JS/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "add": "ts-node scripts/add-component.ts",
     "add:component": "npm run add -- component",
