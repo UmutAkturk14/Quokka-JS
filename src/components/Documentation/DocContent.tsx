@@ -20,7 +20,7 @@ const DocContent = () => {
         Install the library using your package manager of choice:
       </p>
       <pre className="mb-8">
-        <code className="bash">npm install your-library</code>
+        <code className="bash">{`npm install quokka-js`}</code>
       </pre>
 
       <h3 className="text-2xl font-semibold mb-6" id="basic-usage">
