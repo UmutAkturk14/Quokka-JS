@@ -32,7 +32,9 @@ const DocContent = () => {
       <pre className="mb-8">
         <code className="typescript">{`/**
  * Import the module you want to use
- * For example, essential jQuery functionalities, you can use the core module which extends with related DOM, Event Manager and Geometry modules.
+ * For example, essential jQuery functionalities, you can use
+ * the core module which extends with related DOM, Event Manager
+ * and Geometry modules.
  * To do that, you can simly import $
  * import { $ } from 'quokka-js';
  */
