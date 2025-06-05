@@ -21,10 +21,10 @@ export const TabsNavigation = <T extends string>({
               : "border-transparent text-gray-500 hover:text-gray-700"
           }`}
         >
-          {tab === "basic" && "Basic Usage"}
-          {tab === "advanced" && "API Client"}
-          {tab === "integration" && "Functional Utils"}
-          {tab === "eventManager" && "Event Manager"}
+          {tab === "core" && "Core Module"}
+          {tab === "chrono" && "Chrono Module"}
+          {tab === "storage" && "Storage Module"}
+          {tab === "utilities" && "Utilities Module"}
         </button>
       ))}
     </div>

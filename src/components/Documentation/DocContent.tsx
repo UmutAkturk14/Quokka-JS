@@ -30,38 +30,52 @@ const DocContent = () => {
         Import the library and start using it in your project:
       </p>
       <pre className="mb-8">
-        <code className="typescript">{`import { createStore } from 'your-library';
+        <code className="typescript">{`/**
+ * Import the module you want to use
+ * For example, essential jQuery functionalities, you can use the core module which extends with related DOM, Event Manager and Geometry modules.
+ * To do that, you can simly import $
+ * import { $ } from 'quokka-js';
+ */
+import { $ } from 'quokka-js';
 
-// Create a store with initial state
-const store = createStore({
-  count: 0,
-  user: null
-});
+// Select an element
+const $element = $('#element');
 
-// Get state
-const count = store.get('count');
-
-// Update state
-store.set('count', count + 1);`}</code>
+// Do your thing
+$element.hasClass('className')`}</code>
       </pre>
 
       <h3 className="text-2xl font-semibold mb-6" id="configuration">
-        Configuration
+        Other modules
       </h3>
       <p className="mb-4 text-muted-foreground">
-        Customize the library behavior by providing configuration options:
+        Depending on your needs, you can import additional modules like Chrono for time management, Storage for local storage handling, or Utilities for various helper functions. Here’s how you can set up a store with some common configurations:
       </p>
       <pre>
-        <code className="typescript">{`import { createStore } from 'your-library';
+        <code className="typescript">{`/**
+ * For other modules, you can import them as needed.
+ * import { Chrono, Storage, Utilities } from 'quokka-js';
+ */
 
-const store = createStore(
-  { count: 0 },
-  {
-    immutable: true,
-    localStorage: true,
-    debug: process.env.NODE_ENV === 'development'
-  }
-);`}</code>
+import { Storage } from 'quokka-js';
+
+Storage.local.set({
+    name: 'user',
+    value: {
+        id: '12345',
+        name: 'John Doe',
+        email: 'john@doe.com',
+        preferences: {
+            theme: 'dark',
+            notifications: true,
+        },
+        options: {
+            expires: 7,
+            secure: true,
+            'opt-in': true
+        }
+    },
+})`}</code>
       </pre>
 
       <div className="mt-10 text-center flex justify-center items-center ">

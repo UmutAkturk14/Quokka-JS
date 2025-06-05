@@ -14,7 +14,7 @@ import { WindowControls } from "./WindowControls";
  */
 const CodeExample = () => {
   const [activeTab, setActiveTab] =
-    useState<keyof typeof exampleCodes>("basic");
+    useState<keyof typeof exampleCodes>("core");
 
   const codeRef = useRef<HTMLElement>(null);
 
