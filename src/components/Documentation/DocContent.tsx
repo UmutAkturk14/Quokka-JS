@@ -51,7 +51,10 @@ $element.hasClass('className')`}</code>
         Other modules
       </h3>
       <p className="mb-4 text-muted-foreground">
-        Depending on your needs, you can import additional modules like Chrono for time management, Storage for local storage handling, or Utilities for various helper functions. Here’s how you can set up a store with some common configurations:
+        Depending on your needs, you can import additional modules like Chrono
+        for time management, Storage for local storage handling, or Utilities
+        for various helper functions. Here’s how you can set up a store with
+        some common configurations:
       </p>
       <pre>
         <code className="typescript">{`/**
@@ -82,7 +85,9 @@ Storage.local.set({
 
       <div className="mt-10 text-center flex justify-center items-center ">
         <a
-          href="#"
+          href="https://umutakturk14.github.io/QuokkaDocs/"
+          target="_blank"
+          rel="noopener noreferrer"
           className="doc-link border-2 border-stone-100 font-semibold flex justify-center items-center text-amber-700 hover:bg-amber-50 transition-colors px-4 py-2 rounded"
         >
           <span className="inline-block mr-2">📖</span>

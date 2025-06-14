@@ -9,16 +9,17 @@ interface HeroButtonsProps {
 const HeroButtons: React.FC<HeroButtonsProps> = ({ className }) => {
   return (
     <div className={clsx("flex gap-4", className)}>
-      <Button variant="call-to-action" onClick={() => alert("Clicked!")}>
-        Get Started
-      </Button>
+      <Button variant="call-to-action">Get Started</Button>
 
-      <Button
-        className="rounded-sm text-gray-800 h-11 border-gray-300 border-1 font-semibold px-4 py-2 hover:bg-amber-100 transition-colors duration-300 hover:text-amber-800 cursor-pointer"
-        onClick={() => alert("Clicked!")}
+      <a
+        href="https://umutakturk14.github.io/QuokkaDocs/"
+        target="_blank"
+        rel="noopener noreferrer"
       >
-        Documentation
-      </Button>
+        <Button className="rounded-sm text-gray-800 h-11 border-gray-300 border-1 font-semibold px-4 py-2 hover:bg-amber-100 transition-colors duration-300 hover:text-amber-800 cursor-pointer">
+          Documentation
+        </Button>
+      </a>
     </div>
   );
 };
