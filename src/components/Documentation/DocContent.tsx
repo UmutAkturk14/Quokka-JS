@@ -20,7 +20,7 @@ const DocContent = () => {
         Install the library using your package manager of choice:
       </p>
       <pre className="mb-8">
-        <code className="bash">{`npm install quokka-js`}</code>
+        <code className="bash">{`npm install quokka-toolkit`}</code>
       </pre>
 
       <h3 className="text-2xl font-semibold mb-6" id="basic-usage">
@@ -36,9 +36,9 @@ const DocContent = () => {
  * the core module which extends with related DOM, Event Manager
  * and Geometry modules.
  * To do that, you can simly import $
- * import { $ } from 'quokka-js';
+ * import { $ } from 'quokka-toolkit';
  */
-import { $ } from 'quokka-js';
+import { $ } from 'quokka-toolkit';
 
 // Select an element
 const $element = $('#element');
@@ -59,10 +59,10 @@ $element.hasClass('className')`}</code>
       <pre>
         <code className="typescript">{`/**
  * For other modules, you can import them as needed.
- * import { Chrono, Storage, Utilities } from 'quokka-js';
+ * import { Chrono, Storage, Utilities } from 'quokka-toolkit';
  */
 
-import { Storage } from 'quokka-js';
+import { Storage } from 'quokka-toolkit';
 
 Storage.local.set({
     name: 'user',

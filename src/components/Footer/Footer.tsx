@@ -7,14 +7,15 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row w-full justify-between items-start gap-12">
           <div className="flex flex-col md:w-1/3 justify-between items-start gap-6">
             <div className="flex flex-col w-full gap-4">
-              <h3 className="text-lg font-semibold">Your Library</h3>
+              <h3 className="text-lg font-semibold">Quokka JS</h3>
               <p className="text-stone-600">
-                A modern TypeScript library that enhances your development workflow.
+                A modern TypeScript library that enhances your development
+                workflow.
               </p>
             </div>
             <div className="flex space-x-4">
               <a
-                href="#"
+                href="https://github.com/UmutAkturk14/QuokkaJS"
                 className="text-stone-500 hover:text-amber-700 transition-colors"
               >
                 <Github className="h-5 w-5" />
@@ -41,22 +42,34 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Links</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-stone-600 hover:text-amber-700 transition-colors">
+                <a
+                  href="#"
+                  className="text-stone-600 hover:text-amber-700 transition-colors"
+                >
                   Documentation
                 </a>
               </li>
               <li>
-                <a href="#" className="text-stone-600 hover:text-amber-700 transition-colors">
+                <a
+                  href="#"
+                  className="text-stone-600 hover:text-amber-700 transition-colors"
+                >
                   Examples
                 </a>
               </li>
               <li>
-                <a href="#" className="text-stone-600 hover:text-amber-700 transition-colors">
+                <a
+                  href="#"
+                  className="text-stone-600 hover:text-amber-700 transition-colors"
+                >
                   GitHub
                 </a>
               </li>
               <li>
-                <a href="#" className="text-stone-600 hover:text-amber-700 transition-colors">
+                <a
+                  href="#"
+                  className="text-stone-600 hover:text-amber-700 transition-colors"
+                >
                   npm
                 </a>
               </li>
@@ -67,22 +80,34 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Resources</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-stone-600 hover:text-amber-700 transition-colors">
+                <a
+                  href="#"
+                  className="text-stone-600 hover:text-amber-700 transition-colors"
+                >
                   API Reference
                 </a>
               </li>
               <li>
-                <a href="#" className="text-stone-600 hover:text-amber-700 transition-colors">
+                <a
+                  href="#"
+                  className="text-stone-600 hover:text-amber-700 transition-colors"
+                >
                   Tutorials
                 </a>
               </li>
               <li>
-                <a href="#" className="text-stone-600 hover:text-amber-700 transition-colors">
+                <a
+                  href="#"
+                  className="text-stone-600 hover:text-amber-700 transition-colors"
+                >
                   Blog
                 </a>
               </li>
               <li>
-                <a href="#" className="text-stone-600 hover:text-amber-700 transition-colors">
+                <a
+                  href="#"
+                  className="text-stone-600 hover:text-amber-700 transition-colors"
+                >
                   Community
                 </a>
               </li>

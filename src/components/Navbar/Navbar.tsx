@@ -36,8 +36,8 @@ const Navbar: React.FC<NavbarProps> = () => {
           className="hidden md:flex gap-4 items-center"
           id="navbar-cta-buttons"
         >
-          <Button variant="outlined" copyText="npm install quokka-js">
-            npm install quokka-js
+          <Button variant="outlined" copyText="npm install quokka-toolkit">
+            npm install quokka-toolkit
           </Button>
           <Button variant="call-to-action">Get Started</Button>
         </div>

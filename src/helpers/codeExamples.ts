@@ -1,9 +1,8 @@
 const exampleCodes = {
-  core:
-`/**
+  core: `/**
  * Core Module | Extends with related DOM, Event Manager and Geometry modules
  */
-import { $ } from 'quokka-js';
+import { $ } from 'quokka-toolkit';
 
 // Select an element
 const $product: Core = $('#product');
@@ -73,7 +72,7 @@ const isInViewport: boolean = $product.isInViewport();
   chrono: `/**
  * Chrono Module
  */
-import { Chrono } from 'quokka-js';
+import { Chrono } from 'quokka-toolkit';
 
 // Add time to a given date (or now by default)
 const fiveMinutesLater: Date = Chrono.addMinutes(5);
@@ -138,7 +137,7 @@ const expiryLabel: string = Chrono.formatExpiry(expiryTime);
   storage: `/**
  * Storage Module
  */
-import { Storage } from 'quokka-js';
+import { Storage } from 'quokka-toolkit';
 
 /**
  * Local Storage
@@ -176,7 +175,7 @@ Storage.session.get('temp');
   utilities: `/**
  * Utilities Module
  */
-import { Utilities } from 'quokka-js';
+import { Utilities } from 'quokka-toolkit';
 
 /**
  * Type Checks
@@ -220,7 +219,7 @@ utils.base64Decode('aGVsbG8=');// → 'hello'
  */
 utils.getCurrentCoordinates()
   .then(({ lat, lon }) => console.log(lat, lon));
-';`
+';`,
 };
 
 export default exampleCodes;

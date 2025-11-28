@@ -11,7 +11,7 @@ const Hero: React.FC<HeroProps> = () => {
     <>
       <div className="min-h-[100svh] flex justify-center items-center">
         <div className="flex justify-center items-center flex-col gap-4 text-center md:w-1/2">
-          <VersionTag version="0.2.0" title="Just released" />
+          <VersionTag version="0.1.0" title="Just released" />
           <HeroText />
           <HeroButtons className="mt-6" />
           <HeroSubtext />
